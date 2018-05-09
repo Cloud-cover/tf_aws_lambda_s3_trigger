@@ -49,7 +49,7 @@ Note that the following code in the lambda.py assumes that you have read/write
 access to the `my-lambda-test-123` bucket and a test `mlb-stats.csv` file in
 your local directory:
 
-python ```
+```python
 if __name__ == '__main__':
     s3_compress('my-lambda-test-123', 'mlb-stats.csv')
 ```
